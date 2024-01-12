@@ -22,6 +22,6 @@ jobs:
       - name: Deploy to AWS CloudFormation
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
-          name: tekloon-test-stack
+          name: tekloon-test-stackKK
           template: CloudFormation template.yaml
           no-fail-on-empty-changeset: "1"
