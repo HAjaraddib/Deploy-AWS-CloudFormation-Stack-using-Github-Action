@@ -22,7 +22,7 @@ jobs:
     - name: Deploy CloudFormation Stack
       run: |
         aws cloudformation create-stack --stack-name MyStackName \
-          --template-body file://my-template.yaml \
+          --template-body file://CloudFormation template.yaml \
           --region us-east-1 # Replace with your desired AWS region
 
     - name: Wait for Stack to Complete
