@@ -4,7 +4,7 @@ Resources:
   MyS3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: test0ttoow41566
+      BucketName: test0ttoow415
       
 
   MyLambdaRole:
@@ -23,7 +23,7 @@ Resources:
   MyLambdaFunction1:
     Type: AWS::Lambda::Function
     Properties:
-      FunctionName: testfun0000166
+      FunctionName: testfun00001
       Code:
         ZipFile: |
           import csv
@@ -48,7 +48,7 @@ Resources:
   MyLambdaFunction2:
     Type: AWS::Lambda::Function
     Properties:
-      FunctionName: testfun0000266
+      FunctionName: testfun00002
       Code:
         ZipFile: |
           import boto3
